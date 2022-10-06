@@ -258,8 +258,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .main .proyectos .contenedor-proyectos .proyecto {
   margin: auto;
-  width: 250px;
-  height: 350px;
+  width: 325px;
+  height: 450px;
 }
 .main .proyectos .contenedor-proyectos .proyecto .info {
   padding: 1rem 0.5rem;
@@ -286,6 +286,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .main .proyectos .contenedor-proyectos .proyecto .info p .html {
   color: #854723;
+}
+.main .proyectos .contenedor-proyectos .proyecto .info p .react {
+  color: #0cd3e2;
 }
 .main .proyectos .contenedor-proyectos .proyecto .info p .css {
   color: #0571BA;
@@ -346,6 +349,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .main .conocimientos .contenedor .contenedor-conocimientos .tarjeta input:checked ~ .red {
   box-shadow: 0 0 0 31.25rem #770000;
+  transform: rotate(225deg);
+}
+.main .conocimientos .contenedor .contenedor-conocimientos .tarjeta input:checked ~ .lightblue {
+  box-shadow: 0 0 0 31.25rem #0cd3e2;
   transform: rotate(225deg);
 }
 .main .conocimientos .contenedor .contenedor-conocimientos .tarjeta .cambio {
@@ -541,6 +548,7 @@ h1, h2, h3, h4, h5, h6, p {
 .main .proyectos .contenedor-proyectos .proyecto .foto a img {
   filter: grayscale(0);
   transition: all 0.5s ease-in-out;
+  height: 220px;
 }
 .main .proyectos .contenedor-proyectos .proyecto .foto a img:hover {
   filter: grayscale(100);
